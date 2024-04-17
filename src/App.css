@@ -1,0 +1,13 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item {
+  margin-bottom: 10px;
+}
