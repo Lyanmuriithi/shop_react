@@ -1,7 +1,7 @@
 import "chart.js/auto";
 import { Bar,Line } from "react-chartjs-2";
 
-const BarChart = () => {
+const dashboard = () => {
   const labels = ["January", "February", "March", "April", "May", "June"];
   const data = {
     labels: labels,
@@ -22,4 +22,4 @@ const BarChart = () => {
   );
 };
 
-export default BarChart;
+export default dashboard;
