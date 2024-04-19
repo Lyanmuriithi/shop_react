@@ -20,9 +20,9 @@ const App: React.FC = () => {
           <Route element={<Protected />}>
             <Route path="/product" element={<Product />} />
             <Route path="/sales" element={<Sales />} />
+            <Route path="/dashboard" element={<Dashboard />} />
           </Route>
           <Route path="/contact" element={<Contact />} />
-          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/about" element={<About />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
